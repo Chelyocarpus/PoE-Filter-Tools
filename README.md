@@ -1,6 +1,11 @@
 # PoE-Filter-Stuff
+
 Tools to help with my Path of Exile filter creation. Work in Progress.
 
-TODO:
-- Select correct table
-- Output fully useable data
+## Overview
+- create level progression.py
+- get data from tables.py
+
+## Wishful thinking
+- [ ] #1
+- [ ] #2
