@@ -7,4 +7,4 @@ Tools to help with my Path of Exile filter creation. Work in Progress.
 - get data from tables.py
 
 ## Wishful thinking
-- [ ] https://github.com/Chelyocarpus/PoE-Filter-Stuff/issues/3
+- [ ] [Change output.json](https://github.com/Chelyocarpus/PoE-Filter-Stuff/issues/3)
