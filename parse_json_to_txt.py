@@ -48,8 +48,8 @@ def parse_json_to_txt(json_file_path: str, output_file_path: str) -> None:
         f.write(output)
 
 for i in range(1, 11):
-    input_file = f"output{i}.json"
-    output_file = f"output{i}.txt"
+    input_file = f"body_armour-table{i}.json"
+    output_file = f"body_armour-output{i}.txt"
     try:
         parse_json_to_txt(input_file, output_file)
     except FileNotFoundError as e:

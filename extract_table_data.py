@@ -43,14 +43,18 @@ def extract_all_tables() -> None:
 
         # Parse the HTML and extract the data from each table
         doc = pq(response.content)
+        title = doc('title').text()  # Extract the title of the page
+        title = title.split(" | ")[0]  # Use everything before the pipe character as the filename
+        title = title.strip().replace(" ", "_")  # Replace spaces with underscores and remove leading/trailing whitespace
         tables = doc('.wikitable')
         for i, table in enumerate(tables):
             table_data = extract_table_data(pq(table))
 
-            # Save the data to a JSON file
-            filename = f'output{i+1}.json'
+            # Save the data to a JSON file with the modified title as the filename
+            filename = f'{title}-table{i+1}.json'
             with open(filename, 'w') as f:
                 json.dump(table_data, f, indent=2)
+
 
 # Call the extract_all_tables function to start the data extraction process
 extract_all_tables()
