@@ -16,9 +16,10 @@ The script defines a function parse_json_to_txt that reads in a JSON file, extra
 [See what has to be done](https://github.com/Chelyocarpus/PoE-Filter-Stuff/discussions/categories/todo) and contribute if you wish to do so.
 
 ## Contribute
-https://github.com/Chelyocarpus/PoE-Filter-Stuff/issues
 
-https://github.com/Chelyocarpus/PoE-Filter-Stuff/pulls
+Whether you're a seasoned developer or just getting started, there are plenty of ways you can help out.
+If you notice any bugs or have any feature requests, please open an [issue](https://github.com/Chelyocarpus/PoE-Filter-Stuff/issues) on the repository. This helps me keep track of what needs to be fixed or improved.
+If you want to contribute code directly, you can do so by opening a [pull request](https://github.com/Chelyocarpus/PoE-Filter-Stuff/pulls).
 
 ## Changelog
 https://github.com/Chelyocarpus/PoE-Filter-Stuff/discussions/categories/changelog
