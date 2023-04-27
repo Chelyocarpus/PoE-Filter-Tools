@@ -22,4 +22,10 @@ If you notice any bugs or have any feature requests, please open an [issue](http
 If you want to contribute code directly, you can do so by opening a [pull request](https://github.com/Chelyocarpus/PoE-Filter-Stuff/pulls).
 
 ## Changelog
-https://github.com/Chelyocarpus/PoE-Filter-Stuff/discussions/categories/changelog
+[![Button Changelog]][Changelog]
+
+<!----------------------------------------------------------------------------->
+
+[Changelog]: https://github.com/Chelyocarpus/PoE-Filter-Stuff/discussions/categories/changelog
+
+[Button Changelog]: https://img.shields.io/badge/Changelog-4285F4?style=for-the-badge&logoColor=white&logo=Git
