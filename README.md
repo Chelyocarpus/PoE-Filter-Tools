@@ -10,7 +10,7 @@ This is a script that extracts data from HTML tables in a specific URL using the
 
 - parse_json_to_txt.py
 
-The script defines a function parse_json_to_txt that reads in a JSON file, extracts specific fields, and writes the extracted information to a text file in a specific format. The function takes in two arguments, the file path of the JSON file to parse and the file path of the output text file. It returns None. The function is then called in a loop to parse multiple JSON files and write the extracted data to separate text files. The function handles errors related to file not found, invalid JSON, and other exceptions. The output text file contains a formatted string for each item in the JSON file.
+This script processes JSON files, extracting specific fields and converting them into a formatted text file. The main function prompts the user for a base file name, iterates through a series of JSON files, and processes each using the parse_json_to_txt function. If any JSON files have missing required fields, they are marked with an error in the output file name. Finally, the script merges all successfully processed output files into a single merged file, excluding those with errors.
 
 ## ToDo-List
 [See what has to be done](https://github.com/Chelyocarpus/PoE-Filter-Stuff/issues?q=is%3Aissue+is%3Aopen+label%3AToDo) and contribute if you wish to do so.
